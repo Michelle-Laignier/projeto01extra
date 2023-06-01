@@ -1,4 +1,4 @@
-# Projeto 01
+# Projeto 01 extra
 
 Projeto extra feito pra treinar alguns conceitos de HTML e CSS, a partir de um layout no Figma, vistos na aula do stage 2 da Rocketseat.
 
