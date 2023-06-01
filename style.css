@@ -1,0 +1,130 @@
+:root {
+    --cor-footer: #ECEFF2;
+    --roxo: #3F3D56;
+    --lilas: #EE24FF;
+    --cinza: #828282;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container img {
+    margin: 4rem 0 2rem;
+}
+
+@media screen and (max-width: 460px) {
+    .container img {
+        width: 100%;
+    }
+}
+
+.container h1 {
+    color: var(--roxo);
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container h1 span {
+    color: var(--lilas);
+    font-weight: 700;
+}
+
+.container p {
+    color: var(--cinza);
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#flutuar {
+    color: var(--cinza);
+}
+
+.container p span {
+    color: var(--roxo);
+    font-weight: 700;
+}
+
+#text1 {
+    margin: 1rem 0 2rem;
+}
+
+#text3 {
+    margin: 2rem 0 4rem;
+}
+
+footer { /*esse flex no footer é pra centralizar a linha junto */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#line {
+    border-top: 1px solid var(--cor-footer);
+    width: 27%;
+}
+
+@media screen and (max-width: 928px) {
+    #line {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #line {
+        width: 70%;
+    }
+
+    .container {
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .container {
+        margin: 0 2rem;
+    }
+
+    .container h1 {
+        font-size: 27px;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+.footer-div a {
+    color: var(--roxo);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-div a:hover {
+    color: var(--lilas);
+}
+
+footer img {
+    bottom: 0;
+    margin-top: 2.5rem;
+    position: relative;
+    width: 100%;
+}
